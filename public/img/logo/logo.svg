@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Sangu Logo">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" rx="44" fill="url(#g1)"/>
+  <path d="M52 126c0-34 24-58 58-58 22 0 41 10 53 27l-20 14c-7-10-18-16-33-16-20 0-34 14-34 33s14 33 34 33c15 0 26-6 33-16l20 14c-12 17-31 27-53 27-34 0-58-24-58-58z" fill="#fff"/>
+</svg>

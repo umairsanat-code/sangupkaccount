@@ -1,0 +1,12 @@
+ .carousel-control-prev {
+  margin-left: -100px;
+}
+
+.carousel-control-next {
+  margin-right: -100px;
+}
+
+
+.row-payment:nth-child(odd) div {
+    background-color: #F3F4F6;
+}

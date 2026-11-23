@@ -1,0 +1,409 @@
+/* Background Gradient */
+body {
+    /*background: linear-gradient(to bottom right, #283c86, #45a247);*/
+    /* Blue to Green 
+    color: #ffffff; /* Light text for better readability */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*a{*/
+/*    background: linear-gradient(135deg, #004d80, #00b894); !* Blue-Green Gradient *!*/
+/*    color: #FFFFFF; !* White text *!*/
+/*    border: none;*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    transition: background 0.3s ease;*/
+/*}*/
+/*a:hover {*/
+/*    background: linear-gradient(135deg, #00b894, #004d80); !* Reverse Gradient on Hover *!*/
+/*}*/
+/*button {*/
+    background: linear-gradient(135deg, #004d80, #00b894); /* Blue-Green Gradient */
+    color: #FFFFFF; /* White text */
+/*    border: none;*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    transition: background 0.3s ease;*/
+/*}*/
+
+button:hover {
+    background: linear-gradient(135deg, #00b894, #004d80); /* Reverse Gradient on Hover */
+}
+/* Common Button Styles */
+/*.btn {*/
+/*    border: 2px solid transparent;*/
+/*    font-size: 14px;*/
+/*    font-weight: 500;*/
+/*    padding: 6px 10px;*/
+/*    border-radius: 5px;*/
+/*    transition: all 0.3s ease-in-out;*/
+/*}*/
+
+/* Success Button */
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+    background-color: transparent;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Danger Button */
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+    background-color: transparent;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Primary Button */
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+    background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Info Button */
+.btn-outline-info {
+    color: #17a2b8;
+    border-color: #17a2b8;
+    background-color: transparent;
+}
+
+.btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+/* Disabled/Inactive State for Buttons */
+.btn:disabled, .btn[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+    color: #6c757d;
+}
+
+/* Button Icon Alignment */
+.btn i {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+
+/*h1, h2, h3 {*/
+    color: #40E0D0; /* Dark Red */
+/*    text-shadow: 1px 1px 3px rgba(255, 215, 0, 0.8);*/
+/*}*/
+
+/* Links */
+a {
+    color: #1E90FF; /* Blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #32CD32; /* Green for hover */
+}
+
+/* Sidebar Background */
+.main-sidebar {
+    background: linear-gradient(to bottom, #283c86, #45a247); /* Blue to Green Gradient */
+    color: #FFFFFF; /* White text */
+    /*min-height: 100vh;*/
+}
+
+/* Sidebar Links */
+.main-sidebar .nav-link {
+    color: #FFFFFF; /* White text */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.main-sidebar .nav-link:hover {
+    background-color: #228B22; /* Dark Green for hover */
+    color: #FFD700; /* Gold text on hover */
+}
+
+/* Active Link */
+.main-sidebar .nav-link.active-nav {
+    background-color: #32CD32; /* Green for active link */
+    color: #1E90FF; /* Blue text */
+    font-weight: bold;
+}
+
+/* Sidebar Header/Brand Logo */
+.main-sidebar .brand-link {
+    background: linear-gradient(to right, #1E90FF, #32CD32); /* Blue to Green Gradient */
+    color: #FFFFFF; /* White text */
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+/* Sidebar User Panel */
+.main-sidebar .user-panel .info a {
+    color: #FFFFFF; /* White text */
+}
+
+.main-sidebar .user-panel .info a:hover {
+    color: #FFD700; /* Gold on hover */
+}
+
+/* Info Box Background */
+.home-section .info-box {
+    background: linear-gradient(to bottom right, #45a247, #283c86); /* Green to Blue Gradient */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #FFFFFF; /* White text */
+}
+
+.home-section .info-box .info-box-icon {
+    background-color: #FFD700; /* Gold */
+    color: #333333; /* Dark text for icons */
+}
+
+.home-section .info-box .info-box-content {
+    padding: 10px;
+}
+
+.home-section .info-box .info-box-text {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.home-section .info-box .info-box-number {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+}
+
+/* Graph Cards */
+.home-section .card {
+    background: linear-gradient(to bottom right, #283c86, #45a247); /* Blue to Green Gradient */
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #FFFFFF; /* White text */
+}
+
+.home-section .card-header {
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent header */
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.home-section .card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #f7f7f7; /* Gold */
+}
+
+/* Additional Styling */
+.content {
+    padding: 20px;
+}
+
+/* Table Background Colors */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for alternate rows */
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffe0; /* Light yellow for alternate rows */
+}
+
+/* Table Header */
+table th {
+    background-color: #283c86; /* Blue for header background */
+    color: #FFFFFF; /* White text for contrast */
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table Cells */
+table td {
+    color: #333333; /* Dark text for better visibility */
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Button Styles in Table */
+table td .btn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+/* Green Button */
+table td .btn-green {
+    background-color: #32CD32; /* Green */
+    color: #FFFFFF; /* White text */
+}
+
+table td .btn-green:hover {
+    background-color: #228B22; /* Dark green */
+}
+
+/* Red Button */
+table td .btn-red {
+    background-color: #FF6347; /* Tomato Red */
+    color: #FFFFFF; /* White text */
+}
+
+table td .btn-red:hover {
+    background-color: #B22222; /* Dark Red */
+}
+
+/* Blue Button */
+table td .btn-blue {
+    background-color: #1E90FF; /* Blue */
+    color: #FFFFFF; /* White text */
+}
+
+table td .btn-blue:hover {
+    background-color: #104E8B; /* Dark Blue */
+}
+/* General Styles for Graph Containers */
+.graph-container {
+    background: linear-gradient(135deg, #004d80, #00b894); /* Blue-green gradient */
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #FFFFFF; /* Default text color for light-on-dark contrast */
+}
+
+/* Graph Titles */
+.graph-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFD700; /* Gold for titles */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Graph Axes Labels */
+.chartjs-render-monitor .chart-axis-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #FFFFFF; /* White for axis labels */
+}
+
+/* Graph Legend Text */
+.chartjs-legend {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.chartjs-legend .legend-label {
+    color: #FFFFFF; /* Ensures all legend labels are white */
+}
+label{
+   color: rgba(0, 0, 0, 0.8);
+}
+/* Tooltip Styling */
+.chart-tooltip {
+    background-color: rgba(0, 0, 0, 0.8); /* Black background for tooltips */
+    color: #FFFFFF; /* White text for contrast */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* Specific Line Colors for Graph Data */
+.chart-line-tickets {
+    border-color: #00bfff; /* Light Blue for Tickets Count */
+}
+
+.chart-line-sales {
+    border-color: #32CD32; /* Green for Sales Amount */
+}
+
+.chart-line-profit {
+    border-color: #800080; /* Purple for Profit Amount */
+}
+
+.chart-line-loss {
+    border-color: #FF4500; /* Red for Loss Amount */
+}
+.card {
+    background: linear-gradient(135deg, #004d80, #00b894); /* Blue-green gradient */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+}
+
+/*.card-title {*/
+/*    font-size: 1.5rem;*/
+/*    font-weight: bold;*/
+    /*color: #0000;  Gold for titles */
+/*    text-align: center;*/
+/*}*/
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Pagination Links */
+.pagination a, .pagination span {
+    background: linear-gradient(135deg, #004d80, #00b894); /* Blue-Green Gradient */
+    color: #FFFFFF; /* White text */
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+
+/* Hover Effect */
+.pagination a:hover, .pagination span:hover {
+    background: linear-gradient(135deg, #00b894, #004d80); /* Reverse Gradient on Hover */
+    color: #FFD700; /* Gold on hover */
+}
+
+/* Active Page Style */
+.pagination .active {
+    background: #32CD32; /* Green for active page */
+    color: #FFFFFF; /* White text for active */
+    font-weight: bold;
+}
+
+/* Disabled Pagination */
+.pagination .disabled {
+    background: #ddd; /* Gray background for disabled */
+    color: #aaa; /* Lighter text */
+    cursor: not-allowed;
+}
+
